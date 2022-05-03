@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=ubuntu');
+	
+* {
+	box-sizing: border-box;
+	
+}
+
+body {
+	font-family: 'ubuntu', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+	flex-direction: column;
+	overflow: 0;
+	
+}
+
+.bg{
+	background: url(https://lh3.googleusercontent.com/jm2FKJ7_AWyNKibujiNJLvIvMui7qTbqFFJV7HY4fPYbq4YWAFogQiUM5Vpm0gAKVe0__0dQ30qnKvw0Y4Nrq9rjDJp1qdbipLw5sIc4OvNIWgvXhKlUtijCe_Gi_LkDMU8fD_0h6GQLhIP90TaAUU12E247pO6vf9vHISdqea2G8fGiHxb2umcf7pZgwbh_70C_JtT5_5wAAfk2WmPn-XLd2lJdugS9nzG8yp0VE7oijdKAvNuXeEA5EJ3_wxODICJomQb9MpXkM8TJT3HOWoIicknEBkC472s7wpJeij2wUPgY1nH09pek29BKliSfJdmVCvJslmoLoXquR18Tx4LrUncncGGxUBPZf0Y4tKGixlEuM0tvtc--Tw6LonlLAU-xntEHSo8zoFLZgUgkSTPL3WVfWWlCysZHCkeIaLDTvu7Tng6bDx0sh9nR8fbMlu3FWcMgTMcn5ZCDz3KD8Upm8OSAqs8_Kyl6qrnoX41zIeKtGH8VMc9P0DdCAsrlxL3R0C2Q_zmme14VW6035aStfoe-zotAztvioq9Rb1vkFP7uIMbj2Liud-Jup2V0TcUvDAeWJX1Gm8zclGheIyQlE2L7o507YM0sh3azcSVUSZWRRBvSBN5HoWAVnbJzgx9RNkmY_m1PW8kIkbtJFdMtzVWIUXkTUu-5sXpBlWEOporpuT2_zlI9S6wfMw_jH14JkrUl4_BmdSiKXVC9OxktbOdAKGiIasIdACIzbOanaNJrsTCt_CRMGm9kxOc=w840-h847-no?authuser=0) no-repeat center center/cover;
+	position: absolute;
+	top: -30px;
+	left: -30px;
+	width: calc(100vw + 60px);
+	height: calc(100vh + 60px);
+	z-index: -1;
+	filter: blur(0px);
+	
+}
+
+.loading-text{
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+    padding-top: 400px;
+}
